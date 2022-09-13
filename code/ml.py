@@ -3,7 +3,7 @@ import pickle
 import sys,os
 sys.path.insert(0, os.getcwd())
 from code import constants
-from target_encoder import TargetEncoder
+
 class Model():
     def __init__(self):
         self.data_file = constants.DATA_FOLDER + constants.DATA_FILE
